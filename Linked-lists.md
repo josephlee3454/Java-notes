@@ -1,6 +1,6 @@
 # Fun !!! with linked lists
 
-### lets cover the terms first 
+
 
 * Linked List: is a dsa that uses nodes to hold peices of data. Whats unique about it is rather then somthing like an array that holds dedicated pieces of data in a collection thats packed together it is basically held on toeach other in memeory how we tell it 
 
