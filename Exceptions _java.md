@@ -25,16 +25,16 @@
 * The third kind of exception is the runtime exception. These are exceptional conditions that are internal to the application, and that the application usually cannot anticipate or recover from. These usually indicate programming bugs, such as logic errors or improper use of an API. For example, consider the application described previously that passes a file name to the constructor for FileReader.
 
 
-* Example - 
-# public Object pop() {
-#    Object obj;
+# Example - 
+### public Object pop() {
+###    Object obj;
 
-#    if (size == 0) {
-#        throw new EmptyStackException();
-#    }
+###    if (size == 0) {
+###        throw new EmptyStackException();
+###    }
 
-#    obj = objectAt(size - 1);
-#    setObjectAt(size - 1, null);
-#    size--;
-#    return obj;
-# }
+###    obj = objectAt(size - 1);
+###    setObjectAt(size - 1, null);
+###    size--;
+###    return obj;
+### }
